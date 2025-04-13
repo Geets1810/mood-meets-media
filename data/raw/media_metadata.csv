@@ -1,6 +1,11 @@
 content_id,title,type,genre,mood_tag
-1,Peaceful Piano,Music,Instrumental,Tired
-2,Motivation Boost,Podcast,Self-help,Anxious
-3,Calm Documentary,Documentary,Nature,Neutral
-4,Comedy Skit,Video,Comedy,Happy
-5,Feel-Good Movie,Movie,Drama,Happy
+1,Sunset Chill,Music,Ambient,Calm
+2,Focus Boost,Podcast,Self-help,Focused
+3,Peaceful Forest,Nature Video,Nature,Calm
+4,Funny Vibes,Comedy Clip,Comedy,Happy
+5,Motivation Daily,Podcast,Motivational,Excited
+6,Slow Piano,Music,Instrumental,Tired
+7,Positive Podcast,Podcast,Positive Thinking,Happy
+8,Relaxing Rain,ASMR,ASMR,Calm
+9,Adventure Vlog,Vlog,Lifestyle,Excited
+10,Feel Good Drama,Movie,Drama,Happy
