@@ -1,3 +1,5 @@
 streamlit
 pandas
-transformers
+textblob
+scikit-learn
+nltk

@@ -1,5 +1,7 @@
 import streamlit as st
 import pandas as pd
+import nltk
+nltk.download('punkt')
 from textblob import TextBlob
 from recommendation_media import recommend_media, mood_keywords, mood_transitions,emotion_to_mood,is_mood_cancelled
 
