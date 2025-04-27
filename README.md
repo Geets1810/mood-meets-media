@@ -2,7 +2,12 @@
 An AI-powered wellness app that recommends movies and shows based on how you feel — not just what you watched last.
 
 ---
+## 📈 Project Architecture
 
+Mood Meets Media processes journal entries sentence-by-sentence to detect emotional states, refine context, and recommend personalized media content.
+
+![Mood Meets Media Architecture](assets/architecture.png)
+---
 ## 🌟 What It Does
 
 **Mood Meets Media** is an emotion-aware recommender system built with NLP and explainable AI principles. It helps users choose emotionally aligned content by:
@@ -13,8 +18,12 @@ An AI-powered wellness app that recommends movies and shows based on how you fee
 - Supporting emotional transitions (e.g., sad → hopeful)
 
 ---
-## What we are aiming for
-![ChatGPT Image Apr 26, 2025, 10_51_50 PM](https://github.com/user-attachments/assets/8f7a518e-679d-4892-9e03-338ede533325)
+## Vision
+## 📈 Project Architecture
+
+![Mood Meets Media Architecture](assets/vision.png)
+
+
 ---
 
 ## 🧠 Tech Stack
@@ -57,7 +66,3 @@ An AI-powered wellness app that recommends movies and shows based on how you fee
 - ✨ Smart Emotional Remapping (Hopefulness, Anxiety, Stress Detection)
 - ✨ Future-Ready for Custom Fine-Tuning of Emotional States
 - ✨ Built with Streamlit for Interactive User Experience!
-
-## Architecture
-![ChatGPT Image Apr 26, 2025, 10_53_03 PM](https://github.com/user-attachments/assets/5147f874-2aad-4815-a13e-480aca817830)
-
