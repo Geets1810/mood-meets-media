@@ -3,3 +3,4 @@ pandas
 nltk
 transformers
 torch
+scikit-learn
