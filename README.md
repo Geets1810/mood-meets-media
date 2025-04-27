@@ -46,3 +46,12 @@ An AI-powered wellness app that recommends movies and shows based on how you fee
    ```bash
    git clone https://github.com/your-username/mood-meets-media.git
    cd mood-meets-media
+
+## 🚀 Key Features
+
+- ✨ HuggingFace Emotion Classification Model Integration
+- ✨ Sentence-Level Mood Aggregation from Journaling Input
+- ✨ Smart Emotional Remapping (Hopefulness, Anxiety, Stress Detection)
+- ✨ Future-Ready for Custom Fine-Tuning of Emotional States
+- ✨ Built with Streamlit for Interactive User Experience
+
