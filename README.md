@@ -59,5 +59,5 @@ An AI-powered wellness app that recommends movies and shows based on how you fee
 - ✨ Built with Streamlit for Interactive User Experience!
 
 ## Architecture
-![ChatGPT Image Apr 26, 2025, 10_46_52 PM](https://github.com/user-attachments/assets/8ba95f26-57bc-4e37-8b32-a3aaf9cd3da3)
+![ChatGPT Image Apr 26, 2025, 10_53_03 PM](https://github.com/user-attachments/assets/5147f874-2aad-4815-a13e-480aca817830)
 
