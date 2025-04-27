@@ -1,56 +1,55 @@
-# Mood Meets Media 🎬💬  
+Mood Meets Media 🎬💬
+
 An AI-powered wellness app that recommends movies and shows based on how you feel — not just what you watched last.
 
----
 
-## 🌟 What It Does
+## 📈 Project Architecture
 
-**Mood Meets Media** is an emotion-aware recommender system built with NLP and explainable AI principles. It helps users choose emotionally aligned content by:
+Mood Meets Media processes journal entries sentence-by-sentence to detect emotional states, refine context, and recommend personalized media content.
 
-- Analyzing mood using journaling input or emotion selection
-- Mapping feelings to media themes via a custom Mood Matrix
-- Suggesting content with explainable recommendations
-- Supporting emotional transitions (e.g., sad → hopeful)
+![Mood Meets Media Architecture](assets/architecture.png)
 
----
+🌟 What It Does
 
-## 🧠 Tech Stack
+Mood Meets Media is an emotion-aware recommender system built with NLP and explainable AI principles. It helps users choose emotionally aligned content by:
 
-- **Frontend:** Streamlit
-- **NLP:** TextBlob, TF-IDF + Cosine Similarity
-- **Mood Mapping:** Custom emotion-to-theme matrix
-- **Explainability:** Keyword cues from descriptions
+    Analyzing mood using journaling input or emotion selection
+    Mapping feelings to media themes via a custom Mood Matrix
+    Suggesting content with explainable recommendations
+    Supporting emotional transitions (e.g., sad → hopeful)
 
----
+## Vision
 
-## 🚀 Try It Now
+![Vision](assets/Vision.png)
 
-**💡 Live Demo:** [Launch the App on Streamlit](https://your-app-url)  
-*No sign-up needed. Just pick your mood or write how you feel.*
+🧠 Tech Stack
 
----
+    Frontend: Streamlit
+    NLP: TextBlob, TF-IDF + Cosine Similarity
+    Mood Mapping: Custom emotion-to-theme matrix
+    Explainability: Keyword cues from descriptions
 
-## 📸 Screenshots
+🚀 Try It Now
 
-![Homepage](images/homepage.png)  
-*A clean UI for journaling-based and dropdown-based mood detection.*
+💡 Live Demo: Launch the App on Streamlit
+No sign-up needed. Just pick your mood or write how you feel.
+📸 Screenshots
 
-![Explainable Recommendation](images/explanation.png)  
-*Each rec explains why it emotionally fits you.*
+Homepage
+A clean UI for journaling-based and dropdown-based mood detection.
 
----
+Explainable Recommendation
+Each rec explains why it emotionally fits you.
+🛠️ How to Run Locally
+Clone the repo:
 
-## 🛠️ How to Run Locally
+git clone https://github.com/your-username/mood-meets-media.git
+cd mood-meets-media
 
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/your-username/mood-meets-media.git
-   cd mood-meets-media
+🚀 Key Features
 
-
-   ## 🚀 New Features (Sprint 1 - April 2025)
-
-   - Integrated HuggingFace emotion classification model
-   - Built sentence-level mood aggregation from journaling input
-   - Developed smart emotional remapping layer for better context detection
-   - Designed foundation for future fine-tuning and expanded emotional vocabularies
+    ✨ HuggingFace Emotion Classification Model Integration
+    ✨ Sentence-Level Mood Aggregation from Journaling Input
+    ✨ Smart Emotional Remapping (Hopefulness, Anxiety, Stress Detection)
+    ✨ Future-Ready for Custom Fine-Tuning of Emotional States
+    ✨ Built with Streamlit for Interactive User Experience!
