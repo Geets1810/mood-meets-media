@@ -13,6 +13,9 @@ An AI-powered wellness app that recommends movies and shows based on how you fee
 - Supporting emotional transitions (e.g., sad → hopeful)
 
 ---
+## What we are aiming for
+![ChatGPT Image Apr 26, 2025, 10_51_50 PM](https://github.com/user-attachments/assets/8f7a518e-679d-4892-9e03-338ede533325)
+---
 
 ## 🧠 Tech Stack
 
@@ -53,5 +56,8 @@ An AI-powered wellness app that recommends movies and shows based on how you fee
 - ✨ Sentence-Level Mood Aggregation from Journaling Input
 - ✨ Smart Emotional Remapping (Hopefulness, Anxiety, Stress Detection)
 - ✨ Future-Ready for Custom Fine-Tuning of Emotional States
-- ✨ Built with Streamlit for Interactive User Experience
+- ✨ Built with Streamlit for Interactive User Experience!
+
+## Architecture
+![ChatGPT Image Apr 26, 2025, 10_46_52 PM](https://github.com/user-attachments/assets/8ba95f26-57bc-4e37-8b32-a3aaf9cd3da3)
 
