@@ -4,3 +4,4 @@ nltk
 transformers
 torch
 scikit-learn
+openai>=1.0.0

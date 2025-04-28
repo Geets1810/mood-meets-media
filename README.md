@@ -1,55 +1,56 @@
-Mood Meets Media 🎬💬
 
-An AI-powered wellness app that recommends movies and shows based on how you feel — not just what you watched last.
+🎬 Mood Meets Media 1.5
 
+🌿 Let your mood guide your next binge… and your next emotional step.
+📖 About Mood Meets Media 1.5
 
-## 📈 Project Architecture
+    Mood Meets Media is an emotionally-aware content recommender that blends NLP-driven mood detection, emotion wheel mapping, and LLM-powered emotional reflection generation.
+    It helps users not just consume media — but connect emotionally with personalized suggestions, self-reflections, and emotional growth pathways.
+    Built with Streamlit, HuggingFace Transformers, OpenAI GPT, and modern cloud practices.
 
-Mood Meets Media processes journal entries sentence-by-sentence to detect emotional states, refine context, and recommend personalized media content.
+🛠 Tech Stack
+Component	Tech
+App Framework	Streamlit
+Mood Detection	HuggingFace Models + Heuristic Context Adjustment
+Emotional Mapping	Hybrid Emotion Wheel Mapping
+Generative AI	OpenAI GPT-3.5 Turbo
+Content Recommendation	TF-IDF Matching + Custom Emotional Themes
+Hosting	Streamlit Cloud
 
-![Mood Meets Media Architecture](assets/architecture.png)
+📚 Architecture Overview
 
-🌟 What It Does
+User Journaling Input
+         ⬇
+Detect Sentiment Polarity (HuggingFace + Heuristic Adjustment)
+         ⬇
+Map to Final Mood Group (Hybrid Emotion Wheel + Custom Mapping)
+         ⬇
+Generate Warm Emotional Reflection (OpenAI GPT-3.5)
+         ⬇
+Recommend Movies/TV Shows (based on emotional tone + dataset)
+         ⬇
+Suggest Emotional Transition Pathways (Optional)
 
-Mood Meets Media is an emotion-aware recommender system built with NLP and explainable AI principles. It helps users choose emotionally aligned content by:
+✨ Key Features
 
-    Analyzing mood using journaling input or emotion selection
-    Mapping feelings to media themes via a custom Mood Matrix
-    Suggesting content with explainable recommendations
-    Supporting emotional transitions (e.g., sad → hopeful)
+    🎯 Real-time Mood Detection (via Journaling or Mood Picker)
 
-## Vision
+    🎯 Emotionally Adaptive Recommendations (Movies + TV)
 
-![Vision](assets/Vision.png)
+    🎯 NEW! LLM-generated Emotional Reflections (GPT-3.5)
 
-🧠 Tech Stack
+    🎯 Smart Emotional Mapping and Transition Paths
 
-    Frontend: Streamlit
-    NLP: TextBlob, TF-IDF + Cosine Similarity
-    Mood Mapping: Custom emotion-to-theme matrix
-    Explainability: Keyword cues from descriptions
+    🎯 User-Centered, Warm, and Intuitive Design
 
-🚀 Try It Now
+    🎯 Built Fully with Latest OpenAI 1.0 API Standards
 
-💡 Live Demo: Launch the App on Streamlit
-No sign-up needed. Just pick your mood or write how you feel.
-📸 Screenshots
+🚀 Future Roadmap (Optional Section)
 
-Homepage
-A clean UI for journaling-based and dropdown-based mood detection.
+    Mood Meets Media 2.0:
 
-Explainable Recommendation
-Each rec explains why it emotionally fits you.
-🛠️ How to Run Locally
-Clone the repo:
+        Memory-Aware Reflection Tuning
 
-git clone https://github.com/your-username/mood-meets-media.git
-cd mood-meets-media
+        Dynamic LLM-based Content Suggestion
 
-🚀 Key Features
-
-    ✨ HuggingFace Emotion Classification Model Integration
-    ✨ Sentence-Level Mood Aggregation from Journaling Input
-    ✨ Smart Emotional Remapping (Hopefulness, Anxiety, Stress Detection)
-    ✨ Future-Ready for Custom Fine-Tuning of Emotional States
-    ✨ Built with Streamlit for Interactive User Experience!
+        Cross-format Recommendations (Books, Podcasts, YouTube)

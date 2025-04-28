@@ -6,6 +6,8 @@ from transformers import pipeline
 from nltk.tokenize import sent_tokenize
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 nltk.download('punkt')
+from openai import OpenAI
+import os
 
 from recommendation_media import recommend_media, mood_keywords, mood_transitions, emotion_to_mood, is_mood_cancelled
 
@@ -121,6 +123,33 @@ def preclassify_complex_emotions(journal_text):
 
     return None  # No complex emotion detected
 
+# Set your API key safely
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY")) # Best practice: set via environment variable
+
+def generate_emotional_reflection(mood, journal_text=None):
+    system_prompt = (
+        "You are an emotionally supportive assistant helping users based on their current mood. "
+        "Write a short 1-2 sentence warm reflection that acknowledges their emotional state gently. "
+        "The tone should be kind, validating, and encouraging."
+    )
+
+    user_prompt = f"My detected mood is: {mood}."
+    if journal_text:
+        user_prompt += f" Here’s some context from my journal: {journal_text}"
+
+    response = client.chat.completions.create(
+        model="gpt-3.5-turbo",
+        messages=[
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": user_prompt}
+        ],
+        temperature=0.6,  # Slight creativity but controlled
+        max_tokens=80
+    )
+
+    reflection = response.choices[0].message.content
+    return reflection
+
 # --- Load and clean dataset ---
 media_df = pd.read_csv("cleaned_media_metadata_with_posters.csv")
 media_df["poster_url"] = media_df["poster_url"].apply(clean_url)
@@ -174,6 +203,17 @@ else:
 
 if not mood:
     st.stop()
+
+# After mood detection call reflection
+st.success(f"🧠 Based on your journal, we think you're feeling: **{mood}**")
+
+# New - Generate emotional reflection
+try:
+    reflection_text = generate_emotional_reflection(mood, journal_entry)
+    if reflection_text:
+        st.markdown(f"💬 *{reflection_text}*")
+except Exception as e:
+    st.error(f"Reflection generation failed: {e}")
 
 # --- Recommend Content ---
 if st.button("Recommend"):
