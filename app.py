@@ -1,12 +1,16 @@
 # --- Import libraries ---
+import os
+
 import streamlit as st
 import pandas as pd
 import nltk
-from transformers import pipeline
 from nltk.tokenize import sent_tokenize
-from transformers import AutoTokenizer, AutoModelForSequenceClassification
+from transformers import pipeline, AutoTokenizer, AutoModelForSequenceClassification
 from openai import OpenAI
-import os
+
+# Set nltk data path
+nltk.data.path.append('./nltk_data')
+
 
 # --- Safely ensure required NLTK data is available ---
 
