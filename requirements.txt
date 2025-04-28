@@ -3,5 +3,5 @@ pandas
 nltk
 transformers
 torch
+openai
 scikit-learn
-openai>=1.0.0

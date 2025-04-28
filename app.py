@@ -5,9 +5,20 @@ import nltk
 from transformers import pipeline
 from nltk.tokenize import sent_tokenize
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
-nltk.download('punkt')
 from openai import OpenAI
 import os
+
+# --- Safely ensure required NLTK data is available ---
+nltk_dependencies = ['punkt', 'stopwords', 'wordnet', 'vader_lexicon']
+
+for dependency in nltk_dependencies:
+    try:
+        nltk.data.find(f'tokenizers/{dependency}')
+    except LookupError:
+        try:
+            nltk.download(dependency)
+        except Exception as e:
+            print(f"Error downloading {dependency}: {e}")
 
 from recommendation_media import recommend_media, mood_keywords, mood_transitions, emotion_to_mood, is_mood_cancelled
 
@@ -42,11 +53,7 @@ def detect_aggregated_mood(text):
     if not text.strip():
         return None
     sentences = sent_tokenize(text)
-    mood_list = []
-    for sentence in sentences:
-        mood = detect_mood_from_journal(sentence)
-        if mood:
-            mood_list.append(mood)
+    mood_list = [detect_mood_from_journal(sentence) for sentence in sentences if detect_mood_from_journal(sentence)]
     if mood_list:
         final_mood = max(set(mood_list), key=mood_list.count)
         return final_mood
@@ -95,7 +102,7 @@ def remap_detected_emotion_to_mood(detected_emotion):
     elif detected_emotion in conflicted_emotions:
         return "Conflicted / Uncertain"
     else:
-        return "Curious / Stimulated"  # default fallback
+        return "Curious / Stimulated"
 
 def adjust_mood_based_on_context(journal_text, detected_mood):
     journal_text = journal_text.lower()
@@ -121,34 +128,10 @@ def preclassify_complex_emotions(journal_text):
         if any(keyword in journal_text for keyword in keywords):
             return mood_group
 
-    return None  # No complex emotion detected
+    return None
 
 # Set your API key safely
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY")) # Best practice: set via environment variable
-
-def generate_emotional_reflection(mood, journal_text=None):
-    system_prompt = (
-        "You are an emotionally supportive assistant helping users based on their current mood. "
-        "Write a short 1-2 sentence warm reflection that acknowledges their emotional state gently. "
-        "The tone should be kind, validating, and encouraging."
-    )
-
-    user_prompt = f"My detected mood is: {mood}."
-    if journal_text:
-        user_prompt += f" Here’s some context from my journal: {journal_text}"
-
-    response = client.chat.completions.create(
-        model="gpt-3.5-turbo",
-        messages=[
-            {"role": "system", "content": system_prompt},
-            {"role": "user", "content": user_prompt}
-        ],
-        temperature=0.6,  # Slight creativity but controlled
-        max_tokens=80
-    )
-
-    reflection = response.choices[0].message.content
-    return reflection
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 # --- Load and clean dataset ---
 media_df = pd.read_csv("cleaned_media_metadata_with_posters.csv")
