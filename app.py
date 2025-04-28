@@ -219,6 +219,8 @@ if mood_input_mode == "📝 Write how you're feeling":
 else:
     mood = st.selectbox("🧠 Choose a mood", list(mood_keywords.keys()))
 
+st.markdown("---")
+st.caption("✨ Recommendations are personalized based on your mood and journaling. Enjoy your journey! 🌿")
 
 # --- Media Type Filter ---
 media_type = st.selectbox("🎥 What would you like to watch?", ["Any", "Movie", "TV Show"])
@@ -234,7 +236,23 @@ if not mood:
 
 # --- Recommend Content ---
 if st.button("Recommend"):
-    recs = recommend_media(mood, filtered_df, top_n=5)
+    # Map detected mood to simple moods expected by recommend_media
+    simple_mood_map = {
+        "Uplifted / Inspired": "inspired",
+        "Low Energy / Needs Comfort": "sad",
+        "Stressed / Overwhelmed": "anxious",
+        "Irritated / Frustrated": "anxious",
+        "Connected / Heartwarming": "happy",
+        "Calm / Peaceful / Content": "happy",
+        "Curious / Stimulated": "neutral",
+        "Conflicted / Uncertain": "neutral",
+        "Tired": "exhausted"
+    }
+
+    mapped_mood = simple_mood_map.get(mood, "neutral")  # Default fallback to neutral if not found
+
+    # Now use the mapped mood for recommendations
+    recs = recommend_media(mapped_mood, filtered_df, top_n=5)
 
     if recs.empty:
         st.warning("😕 Sorry, we couldn’t find any matches. Try another mood or type!")
