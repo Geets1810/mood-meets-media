@@ -9,11 +9,19 @@ from openai import OpenAI
 import os
 
 # --- Safely ensure required NLTK data is available ---
-nltk_dependencies = ['punkt', 'stopwords', 'wordnet', 'vader_lexicon']
 
-for dependency in nltk_dependencies:
+# List of resources with their correct paths
+nltk_dependencies = {
+    'punkt': 'tokenizers/punkt',
+    'stopwords': 'corpora/stopwords',
+    'wordnet': 'corpora/wordnet',
+    'vader_lexicon': 'sentiment/vader_lexicon'
+}
+
+# Check and download if not found
+for dependency, path in nltk_dependencies.items():
     try:
-        nltk.data.find(f'tokenizers/{dependency}')
+        nltk.data.find(path)
     except LookupError:
         try:
             nltk.download(dependency)
