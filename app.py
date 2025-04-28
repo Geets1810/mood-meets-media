@@ -130,7 +130,7 @@ def preclassify_complex_emotions(journal_text):
 
     return None
 
-    def generate_emotional_reflection(mood, journal_text=None):
+def generate_emotional_reflection(mood, journal_text=None):
     system_prompt = (
         "You are an emotionally supportive assistant helping users based on their current mood. "
         "Write a short 1-2 sentence warm reflection that acknowledges their emotional state gently. "
@@ -153,6 +153,7 @@ def preclassify_complex_emotions(journal_text):
 
     reflection = response.choices[0].message.content
     return reflection
+
 
 # Set your API key safely
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
@@ -188,7 +189,14 @@ if mood_input_mode == "📝 Write how you're feeling":
             mood = final_mood
 
         if mood:
-            st.success(f"🧠 Based on your journal, we think you're feeling: **{mood}**")
+                    # New - Generate emotional reflection
+            try:
+                reflection_text = generate_emotional_reflection(mood, journal_entry)
+                if reflection_text:
+                    st.markdown(f"💬 *{reflection_text}*")
+            except Exception as e:
+                st.error(f"Reflection generation failed: {e}")
+
         else:
             st.warning("⚡ We couldn't detect your mood clearly. Please try writing a bit more!")
 
@@ -211,16 +219,6 @@ else:
 if not mood:
     st.stop()
 
-# After mood detection call reflection
-st.success(f"🧠 Based on your journal, we think you're feeling: **{mood}**")
-
-# New - Generate emotional reflection
-try:
-    reflection_text = generate_emotional_reflection(mood, journal_entry)
-    if reflection_text:
-        st.markdown(f"💬 *{reflection_text}*")
-except Exception as e:
-    st.error(f"Reflection generation failed: {e}")
 
 # --- Recommend Content ---
 if st.button("Recommend"):
