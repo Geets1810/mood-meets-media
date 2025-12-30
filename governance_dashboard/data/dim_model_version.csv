@@ -1,0 +1,303 @@
+model_version_id,model_id,version_label,model_type,created_date,activation_date,retirement_date,lifecycle_phase,model_status,management_status,current_risk_tier,expected_revalidation_date,last_review_id
+MV00001,M0001,1.1,Rule-based,2024-08-01,,,Development,Not Yet Active,Review not required,Medium,2025-09-25,
+MV00002,M0002,1.2,Rule-based,2022-06-03,2022-08-14,,Active,Active - In use,Review not required,Medium,2026-06-19,
+MV00003,M0002,2.3,Statistical,2019-11-09,2019-11-24,,Active,Active - In use,Review not required,High,2025-12-11,
+MV00004,M0003,1.1,AI/ML,2022-10-28,,,Development,Not Yet Active,Review required,Low,2025-09-12,
+MV00005,M0003,2.0,AI/ML,2019-02-15,,,Development,Not Yet Active,Review required,Low,2026-04-28,
+MV00006,M0003,3.2,AI/ML,2024-05-26,2024-08-14,,Active,Active - In use,Review required,Low,2025-11-23,RV000005
+MV00007,M0004,1.1,Statistical,2020-07-08,2020-10-28,,Active,Active - In use,Review required,Low,2026-02-02,RV000008
+MV00008,M0004,2.0,Vendor,2022-12-26,2023-01-09,,Active,Active - In use,Review required,Low,2026-02-05,RV000009
+MV00009,M0005,1.1,Statistical,2022-09-16,,,Development,Not Yet Active,Review required,Medium,2025-09-18,
+MV00010,M0005,2.2,Statistical,2023-05-02,2023-08-30,,Active,Active - In use,Review required,Medium,2025-12-17,RV000011
+MV00011,M0005,3.0,AI/ML,2021-07-02,,,Development,Not Yet Active,Review required,Medium,2025-12-24,
+MV00012,M0006,1.0,Statistical,2025-05-04,2025-07-08,,Active,Active - In use,Review not required,Low,2026-08-06,
+MV00013,M0007,1.3,Rule-based,2025-03-31,2025-05-04,,Active,Active - In use,Review required,High,2025-11-09,RV000012
+MV00014,M0008,1.2,Rule-based,2025-03-04,2025-03-22,,Active,Active - In use,Review required,Low,2026-01-24,RV000016
+MV00015,M0008,2.1,Statistical,2024-11-02,,,Development,Not Yet Active,Review not required,Low,2026-01-24,
+MV00016,M0009,1.3,Statistical,2022-06-16,2022-10-10,,Active,Active - In use,Review required,Low,2026-02-11,RV000018
+MV00017,M0009,2.3,Statistical,2021-04-07,2021-06-12,,Active,Active - In use,Review required,Low,2026-05-31,RV000019
+MV00018,M0009,3.2,Rule-based,2022-02-03,,,Development,Not Yet Active,Review required,Medium,2025-09-21,
+MV00019,M0010,1.2,AI/ML,2021-06-22,2021-10-13,,Active,Active - In use,Review required,High,2025-11-16,RV000020
+MV00020,M0010,2.0,Statistical,2024-01-23,,,Development,Not Yet Active,Review required,High,2025-08-20,
+MV00021,M0011,1.3,Vendor,2024-07-21,2024-08-31,,Active,Active - In use,Review not required,Medium,2026-04-27,
+MV00022,M0011,2.3,Statistical,2023-07-17,2023-08-18,,Active,Active - In use,Review not required,Medium,2026-02-02,
+MV00023,M0011,3.0,AI/ML,2025-06-09,2025-07-20,,Active,Active - In use,Review required,Medium,2026-04-14,RV000021
+MV00024,M0011,4.2,Statistical,2024-10-17,2025-01-13,,Active,Active - In use,Review required,Medium,2025-08-29,RV000025
+MV00025,M0012,1.2,Statistical,2023-04-08,2023-04-27,,Active,Active - In use,Review not required,Low,2026-07-07,
+MV00026,M0012,2.2,Vendor,2021-12-02,2022-02-19,,Active,Active - In use,Review required,High,2026-03-24,RV000026
+MV00027,M0013,1.1,AI/ML,2020-09-30,2020-12-02,,Active,Active - In use,Review required,Medium,2026-09-07,RV000029
+MV00028,M0013,2.3,Rule-based,2023-01-23,,,Development,Not Yet Active,Review required,High,2026-01-04,
+MV00029,M0014,1.1,Statistical,2023-01-11,2023-02-18,,Active,Active - In use,Review not required,Low,2025-11-07,
+MV00030,M0014,2.0,AI/ML,2021-11-30,2022-01-22,,Active,Active - In use,Review required,Low,2025-09-17,RV000030
+MV00031,M0014,3.0,Statistical,2021-12-21,2022-03-16,,Active,Active - In use,Review required,Low,2025-09-30,RV000031
+MV00032,M0014,4.3,Statistical,2019-08-05,2019-08-21,,Active,Active - In use,Review required,Medium,2025-12-29,RV000032
+MV00033,M0015,1.3,Statistical,2021-11-02,2022-02-16,,Active,Active - In use,Review required,Medium,2025-08-27,RV000034
+MV00034,M0015,2.2,Statistical,2021-03-26,2021-06-27,,Active,Active - In use,Review required,Medium,2025-12-17,RV000035
+MV00035,M0015,3.1,Rule-based,2021-05-24,2021-06-19,,Active,Active - In use,Review required,Low,2026-01-12,RV000036
+MV00036,M0016,1.2,Statistical,2022-12-08,2023-03-05,,Active,Active - In use,Review required,Medium,2026-01-20,RV000039
+MV00037,M0016,2.1,Statistical,2022-06-03,,,Development,Not Yet Active,Review not required,Low,2025-09-14,
+MV00038,M0016,3.2,Statistical,2025-10-31,2026-01-25,,Active,Active - In use,Review not required,Medium,2026-02-02,
+MV00039,M0017,1.2,Statistical,2025-06-30,2025-09-02,,Active,Active - In use,Review required,Low,2026-01-24,RV000040
+MV00040,M0018,1.3,Statistical,2025-01-15,2025-03-28,,Active,Active - In use,Review required,High,2025-11-28,RV000041
+MV00041,M0019,1.3,Statistical,2019-06-24,,,Development,Not Yet Active,Review not required,High,2025-10-06,
+MV00042,M0019,2.3,AI/ML,2022-09-19,,,Development,Not Yet Active,Review required,Medium,2026-12-11,
+MV00043,M0020,1.0,AI/ML,2020-02-06,2020-04-13,,Active,Active - In use,Review required,Low,2025-11-10,RV000042
+MV00044,M0020,2.2,Rule-based,2017-04-17,2017-06-29,,Active,Active - In use,Review required,Medium,2025-08-25,RV000044
+MV00045,M0021,1.0,AI/ML,2022-12-23,2023-01-26,,Active,Active - In use,Review required,Medium,2026-03-26,RV000045
+MV00046,M0021,2.3,AI/ML,2024-06-04,2024-09-13,,Active,Active - In use,Review not required,Low,2026-10-20,
+MV00047,M0021,3.0,Statistical,2020-06-25,2020-08-02,,Active,Active - In use,Review required,Low,2026-09-06,RV000046
+MV00048,M0022,1.2,Statistical,2022-07-08,2022-10-21,,Active,Active - In use,Review not required,Low,2026-01-17,
+MV00049,M0022,2.3,Statistical,2020-10-13,,,Development,Not Yet Active,Review required,Low,2025-12-29,
+MV00050,M0022,3.1,AI/ML,2021-04-14,2021-05-09,,Active,Active - In use,Review not required,Medium,2026-01-29,
+MV00051,M0022,4.1,AI/ML,2020-03-04,,,Development,Not Yet Active,Review required,Low,2026-01-12,
+MV00052,M0023,1.0,AI/ML,2023-09-23,2023-11-09,,Active,Active - In use,Review required,High,2026-06-07,RV000047
+MV00053,M0023,2.1,Statistical,2024-03-05,2024-03-20,,Active,Active - In use,Review not required,Medium,2025-12-05,
+MV00054,M0023,3.1,Statistical,2025-05-23,2025-06-15,,Active,Active - In use,Review not required,Medium,2025-08-22,
+MV00055,M0024,1.3,AI/ML,2025-08-07,2025-10-12,,Active,Active - In use,Review required,Medium,2025-10-29,RV000048
+MV00056,M0024,2.0,Statistical,2024-09-22,2024-12-03,,Active,Active - In use,Review required,High,2025-12-02,RV000049
+MV00057,M0024,3.2,Statistical,2021-03-09,2021-04-19,,Active,Active - In use,Review required,Medium,2025-11-26,RV000052
+MV00058,M0025,1.2,Statistical,2025-01-27,2025-04-26,,Active,Active - In use,Review required,Medium,2025-12-04,RV000054
+MV00059,M0025,2.1,Statistical,2023-03-26,,,Development,Not Yet Active,Review required,Medium,2025-10-02,
+MV00060,M0025,3.0,Statistical,2024-03-05,2024-05-11,,Active,Active - In use,Review required,Medium,2026-12-12,RV000056
+MV00061,M0025,4.3,Rule-based,2022-04-14,2022-07-20,,Active,Active - In use,Review not required,Low,2025-12-27,
+MV00062,M0026,1.3,Statistical,2017-05-15,2017-08-02,,Active,Active - In use,Review required,High,2025-11-13,RV000057
+MV00063,M0026,2.1,Rule-based,2024-12-20,2025-02-07,,Active,Active - In use,Review required,High,2026-01-20,RV000059
+MV00064,M0027,1.2,Statistical,2022-11-06,2023-01-24,,Active,Active - In use,Review required,High,2025-10-09,RV000060
+MV00065,M0027,2.2,Statistical,2024-01-03,2024-02-14,,Active,Active - In use,Review required,High,2025-12-14,RV000063
+MV00066,M0027,3.3,Statistical,2023-01-21,,,Development,Not Yet Active,Review required,Medium,2026-01-10,
+MV00067,M0027,4.3,AI/ML,2024-05-10,2024-09-01,,Active,Active - In use,Review required,High,2025-10-10,RV000065
+MV00068,M0028,1.2,Rule-based,2025-07-11,2025-10-17,,Active,Active - In use,Review required,Medium,2025-10-09,RV000066
+MV00069,M0028,2.0,Statistical,2025-04-03,2025-05-15,,Active,Active - In use,Review required,Medium,2026-01-02,RV000068
+MV00070,M0029,1.1,Statistical,2024-08-04,2024-09-29,,Active,Active - In use,Review not required,Medium,2026-10-24,
+MV00071,M0030,1.2,Statistical,2025-05-27,2025-06-22,,Active,Active - In use,Review required,Low,2025-08-15,RV000069
+MV00072,M0030,2.0,Statistical,2021-12-05,,,Development,Not Yet Active,Review required,Low,2025-12-23,
+MV00073,M0031,1.3,Statistical,2021-07-24,,,Development,Not Yet Active,Review required,Medium,2026-02-04,
+MV00074,M0032,1.1,Rule-based,2025-06-02,,,Development,Not Yet Active,Review required,High,2025-11-04,
+MV00075,M0033,1.3,Vendor,2025-02-26,2025-04-08,,Active,Active - In use,Review not required,Low,2026-01-11,
+MV00076,M0033,2.3,Statistical,2024-10-05,2024-12-30,,Active,Active - In use,Review required,Medium,2025-10-07,RV000071
+MV00077,M0033,3.2,Statistical,2025-07-06,2025-08-23,,Active,Active - In use,Review required,Medium,2026-02-04,RV000072
+MV00078,M0033,4.3,Rule-based,2025-04-01,,,Development,Not Yet Active,Review not required,Low,2026-01-04,
+MV00079,M0034,1.3,AI/ML,2020-10-02,2020-11-05,,Active,Active - In use,Review required,Low,2025-09-13,RV000074
+MV00080,M0034,2.3,AI/ML,2025-01-19,2025-05-12,,Active,Active - In use,Review required,Medium,2026-08-25,RV000081
+MV00081,M0034,3.3,Statistical,2024-06-06,2024-06-26,,Active,Active - In use,Review required,Low,2025-08-24,RV000082
+MV00082,M0034,4.3,AI/ML,2023-03-19,2023-04-02,,Active,Active - In use,Review required,Low,2026-01-21,RV000085
+MV00083,M0035,1.3,Statistical,2023-08-02,,,Development,Not Yet Active,Review required,Low,2026-01-01,
+MV00084,M0036,1.0,Statistical,2021-06-21,,,Development,Not Yet Active,Review required,Medium,2025-10-25,
+MV00085,M0036,2.1,Statistical,2024-02-20,2024-04-22,,Active,Active - In use,Review required,High,2026-11-27,RV000087
+MV00086,M0036,3.1,Statistical,2023-10-06,2023-12-29,,Active,Active - In use,Review required,High,2025-12-22,RV000088
+MV00087,M0037,1.0,Statistical,2025-10-06,2026-01-26,,Active,Active - In use,Review required,Low,2025-10-13,RV000091
+MV00088,M0037,2.2,Statistical,2025-02-21,2025-06-19,,Active,Active - In use,Review required,Low,2025-11-03,RV000094
+MV00089,M0037,3.2,Statistical,2024-07-14,2024-11-07,,Active,Active - In use,Review required,Low,2025-09-18,RV000096
+MV00090,M0038,1.2,Statistical,2025-10-09,2026-01-29,,Active,Active - In use,Review required,High,2025-11-12,RV000100
+MV00091,M0038,2.0,Rule-based,2025-02-12,2025-06-02,,Active,Active - In use,Review required,Medium,2026-01-10,RV000102
+MV00092,M0038,3.3,Statistical,2024-12-05,2025-01-09,,Active,Active - In use,Review required,High,2026-04-19,RV000103
+MV00093,M0038,4.1,AI/ML,2025-01-16,2025-05-11,,Active,Active - In use,Review required,Medium,2026-10-15,RV000105
+MV00094,M0039,1.2,Statistical,2023-03-05,2023-06-24,,Active,Active - In use,Review not required,High,2026-01-07,
+MV00095,M0039,2.0,Statistical,2025-03-21,2025-05-17,,Active,Active - In use,Review not required,Medium,2025-09-16,
+MV00096,M0039,3.3,Vendor,2024-10-01,2024-10-24,,Active,Active - In use,Review not required,High,2026-01-25,
+MV00097,M0039,4.0,Statistical,2025-10-25,2025-12-15,,Active,Active - In use,Review required,High,2025-08-16,RV000107
+MV00098,M0040,1.0,Rule-based,2017-09-26,2017-10-11,,Active,Active - In use,Review required,Medium,2025-12-15,RV000109
+MV00099,M0040,2.3,Statistical,2020-04-30,2020-08-03,,Active,Active - In use,Review not required,Low,2026-11-14,
+MV00100,M0040,3.1,Statistical,2020-10-27,2021-01-28,,Active,Active - In use,Review required,Medium,2025-11-29,RV000110
+MV00101,M0040,4.2,Statistical,2018-08-09,2018-10-14,,Active,Active - In use,Review required,Low,2026-01-10,RV000112
+MV00102,M0041,1.3,AI/ML,2022-06-30,2022-08-03,,Active,Active - In use,Review not required,Medium,2026-04-14,
+MV00103,M0042,1.0,Statistical,2019-03-22,2019-07-10,,Active,Active - In use,Review required,Low,2026-07-31,RV000114
+MV00104,M0042,2.1,Rule-based,2021-04-07,2021-05-29,,Active,Active - In use,Review required,Low,2026-04-27,RV000115
+MV00105,M0043,1.1,Statistical,2018-02-22,2018-05-27,,Active,Active - In use,Review required,Medium,2025-08-23,RV000119
+MV00106,M0043,2.0,AI/ML,2025-04-10,,,Development,Not Yet Active,Review required,Medium,2025-10-12,
+MV00107,M0043,3.0,AI/ML,2021-12-24,2022-03-08,,Active,Active - In use,Review required,Medium,2025-12-27,RV000122
+MV00108,M0044,1.3,Statistical,2024-09-18,2024-11-23,,Active,Active - In use,Review required,High,2025-12-02,RV000124
+MV00109,M0045,1.3,AI/ML,2024-01-23,2024-04-09,,Active,Active - In use,Review required,High,2025-12-31,RV000128
+MV00110,M0045,2.3,Statistical,2021-03-01,,,Development,Not Yet Active,Review required,Medium,2026-10-01,
+MV00111,M0045,3.0,Statistical,2020-11-13,,,Development,Not Yet Active,Review required,Medium,2026-01-02,
+MV00112,M0046,1.3,Rule-based,2021-08-28,,,Development,Not Yet Active,Review not required,Medium,2025-08-27,
+MV00113,M0046,2.3,Statistical,2021-10-27,2022-02-09,,Active,Active - In use,Review required,Low,2025-09-08,RV000131
+MV00114,M0047,1.3,Statistical,2019-07-02,2019-08-17,,Active,Active - In use,Review required,High,2025-09-26,RV000133
+MV00115,M0047,2.3,Statistical,2021-06-09,2021-10-05,,Active,Active - In use,Review required,High,2025-12-19,RV000137
+MV00116,M0047,3.0,Statistical,2025-10-02,2026-01-04,,Active,Active - In use,Review required,Medium,2025-08-27,RV000138
+MV00117,M0048,1.2,Statistical,2024-09-20,2024-09-30,,Active,Active - In use,Review not required,Medium,2026-05-14,
+MV00118,M0048,2.3,Statistical,2023-02-22,2023-03-22,,Active,Active - In use,Review required,High,2026-02-26,RV000139
+MV00119,M0048,3.3,Statistical,2024-08-31,2024-09-30,,Active,Active - In use,Review required,High,2026-01-05,RV000140
+MV00120,M0049,1.1,Vendor,2022-11-18,2023-03-04,,Active,Active - In use,Review required,Medium,2025-09-23,RV000142
+MV00121,M0050,1.3,Statistical,2021-04-08,2021-05-15,,Active,Active - In use,Review required,Medium,2026-01-30,RV000143
+MV00122,M0050,2.2,AI/ML,2025-10-23,2026-01-27,,Active,Active - In use,Review required,Low,2025-09-27,RV000145
+MV00123,M0050,3.0,Rule-based,2018-04-17,,,Development,Not Yet Active,Review required,Medium,2026-01-01,
+MV00124,M0050,4.2,Rule-based,2021-06-14,2021-08-04,,Active,Active - In use,Review required,Low,2025-11-26,RV000148
+MV00125,M0051,1.0,Statistical,2022-08-27,2022-12-25,,Active,Active - In use,Review required,Medium,2026-03-04,RV000149
+MV00126,M0051,2.3,AI/ML,2023-08-23,2023-10-23,,Active,Active - In use,Review required,Low,2026-09-12,RV000150
+MV00127,M0051,3.1,Statistical,2024-12-02,2025-03-01,,Active,Active - In use,Review required,Medium,2026-10-04,RV000152
+MV00128,M0052,1.3,AI/ML,2023-08-14,2023-11-27,,Active,Active - In use,Review required,Medium,2026-01-03,RV000155
+MV00129,M0053,1.1,Statistical,2022-05-04,2022-05-27,,Active,Active - In use,Review required,Medium,2026-04-26,RV000158
+MV00130,M0053,2.3,Rule-based,2024-10-31,2025-01-21,,Active,Active - In use,Review required,Medium,2026-07-26,RV000160
+MV00131,M0053,3.2,AI/ML,2024-05-01,2024-05-18,,Active,Active - In use,Review required,High,2026-08-10,RV000161
+MV00132,M0054,1.0,AI/ML,2022-08-10,2022-12-04,,Active,Active - In use,Review required,Medium,2025-12-31,RV000162
+MV00133,M0055,1.3,Statistical,2022-09-12,2022-12-01,,Active,Active - In use,Review not required,Low,2026-02-01,
+MV00134,M0055,2.1,Vendor,2019-10-17,2020-01-12,,Active,Active - In use,Review not required,Low,2026-01-12,
+MV00135,M0055,3.0,Statistical,2021-03-29,2021-04-21,,Active,Active - In use,Review not required,Low,2026-02-02,
+MV00136,M0055,4.1,Statistical,2016-08-17,2016-09-27,,Active,Active - In use,Review required,Medium,2026-01-27,RV000163
+MV00137,M0056,1.2,Statistical,2022-09-18,2022-11-03,,Active,Active - In use,Review not required,Low,2025-10-23,
+MV00138,M0056,2.0,AI/ML,2025-08-10,2025-11-10,,Active,Active - In use,Review required,Medium,2026-01-03,RV000165
+MV00139,M0057,1.2,AI/ML,2016-12-11,2017-03-05,,Active,Active - In use,Review required,High,2025-09-18,RV000167
+MV00140,M0057,2.0,AI/ML,2019-07-04,2019-09-23,,Active,Active - In use,Review required,Medium,2026-08-22,RV000168
+MV00141,M0058,1.3,Rule-based,2025-01-21,2025-02-02,,Active,Active - In use,Review required,Low,2026-08-15,RV000171
+MV00142,M0059,1.0,AI/ML,2024-02-18,2024-04-11,,Active,Active - In use,Review not required,High,2025-08-21,
+MV00143,M0060,1.1,Statistical,2021-06-23,2021-07-26,,Active,Active - In use,Review required,Medium,2026-05-06,RV000172
+MV00144,M0060,2.1,Statistical,2024-08-21,2024-11-17,,Active,Active - In use,Review required,High,2025-12-31,RV000174
+MV00145,M0060,3.3,Vendor,2024-11-01,2025-02-17,,Active,Active - In use,Review required,High,2025-11-05,RV000175
+MV00146,M0060,4.1,Statistical,2021-03-17,2021-04-28,,Active,Active - In use,Review required,High,2025-12-05,RV000181
+MV00147,M0061,1.3,AI/ML,2024-04-01,2024-05-28,,Active,Active - In use,Review not required,Medium,2025-12-28,
+MV00148,M0062,1.1,AI/ML,2021-07-21,,,Development,Not Yet Active,Review required,Medium,2025-08-14,
+MV00149,M0062,2.1,AI/ML,2022-03-02,2022-03-16,,Active,Active - In use,Review required,High,2026-07-07,RV000182
+MV00150,M0062,3.0,Statistical,2021-11-03,2021-11-15,,Active,Active - In use,Review required,Low,2025-12-29,RV000186
+MV00151,M0063,1.0,AI/ML,2018-09-05,2018-12-31,,Active,Active - In use,Review required,Low,2025-08-18,RV000187
+MV00152,M0063,2.1,Statistical,2025-06-29,,,Development,Not Yet Active,Review required,Low,2025-12-31,
+MV00153,M0063,3.2,Statistical,2020-02-18,2020-05-11,,Active,Active - In use,Review required,Medium,2026-01-08,RV000189
+MV00154,M0063,4.0,AI/ML,2021-10-24,2022-01-02,,Active,Active - In use,Review required,Low,2025-12-15,RV000190
+MV00155,M0064,1.0,Statistical,2024-05-07,2024-06-16,,Active,Active - In use,Review required,High,2026-01-28,RV000194
+MV00156,M0064,2.1,AI/ML,2023-03-04,2023-03-22,,Active,Active - In use,Review required,Medium,2026-01-27,RV000199
+MV00157,M0064,3.2,Vendor,2024-06-01,2024-09-29,,Active,Active - In use,Review required,High,2026-01-31,RV000200
+MV00158,M0065,1.3,Statistical,2025-10-16,2025-12-21,,Active,Active - In use,Review required,Medium,2026-02-08,RV000202
+MV00159,M0065,2.2,Statistical,2024-11-12,2025-02-23,,Active,Active - In use,Review required,Low,2026-09-16,RV000204
+MV00160,M0065,3.0,Statistical,2025-03-17,2025-06-19,,Active,Active - In use,Review required,Low,2025-12-31,RV000209
+MV00161,M0065,4.0,AI/ML,2025-09-09,,,Development,Not Yet Active,Review not required,Low,2026-09-06,
+MV00162,M0066,1.0,AI/ML,2021-04-26,2021-08-22,,Active,Active - In use,Review not required,Medium,2025-09-25,
+MV00163,M0066,2.1,Rule-based,2020-11-22,2021-01-01,,Active,Active - In use,Review not required,Low,2025-09-03,
+MV00164,M0067,1.0,Rule-based,2023-10-29,2023-11-27,,Active,Active - In use,Review required,Low,2026-09-29,RV000210
+MV00165,M0067,2.1,Statistical,2022-12-23,2023-02-17,,Active,Active - In use,Review not required,Low,2025-10-22,
+MV00166,M0067,3.1,Vendor,2018-04-24,2018-05-07,,Active,Active - In use,Review not required,Low,2026-05-17,
+MV00167,M0067,4.3,Statistical,2023-05-04,2023-05-29,,Active,Active - In use,Review required,Medium,2026-06-25,RV000211
+MV00168,M0068,1.1,Statistical,2021-04-20,2021-05-17,,Active,Active - In use,Review required,High,2025-08-24,RV000212
+MV00169,M0068,2.0,Statistical,2023-07-06,2023-10-09,,Active,Active - In use,Review required,High,2025-10-28,RV000213
+MV00170,M0068,3.1,Statistical,2021-11-17,2022-03-08,,Active,Active - In use,Review required,Medium,2026-01-05,RV000215
+MV00171,M0068,4.2,AI/ML,2024-01-24,2024-04-02,,Active,Active - In use,Review required,High,2025-08-31,RV000216
+MV00172,M0069,1.3,Statistical,2025-03-17,2025-06-27,,Active,Active - In use,Review required,Low,2025-10-11,RV000218
+MV00173,M0069,2.0,AI/ML,2023-09-17,2023-11-25,,Active,Active - In use,Review required,Low,2026-11-02,RV000219
+MV00174,M0069,3.1,Statistical,2025-06-29,2025-07-25,,Active,Active - In use,Review required,Medium,2026-01-09,RV000222
+MV00175,M0070,1.2,Statistical,2023-09-22,2023-11-03,,Active,Active - In use,Review required,Low,2025-11-16,RV000225
+MV00176,M0070,2.1,Statistical,2023-12-26,2024-03-29,,Active,Active - In use,Review required,Medium,2026-01-21,RV000226
+MV00177,M0070,3.0,AI/ML,2023-08-19,2023-11-19,,Active,Active - In use,Review required,High,2025-09-04,RV000227
+MV00178,M0071,1.0,Statistical,2022-08-22,2022-11-20,,Active,Active - In use,Review required,High,2026-01-16,RV000228
+MV00179,M0071,2.3,Rule-based,2020-05-23,2020-07-30,,Active,Active - In use,Review required,High,2025-12-17,RV000229
+MV00180,M0071,3.3,Vendor,2019-05-06,,,Development,Not Yet Active,Review required,Medium,2026-01-20,
+MV00181,M0071,4.2,Vendor,2025-04-16,2025-08-14,,Active,Active - In use,Review required,High,2025-10-28,RV000230
+MV00182,M0072,1.2,Statistical,2024-10-17,,,Development,Not Yet Active,Review required,Medium,2026-04-14,
+MV00183,M0073,1.1,AI/ML,2018-04-06,2018-04-22,,Active,Active - In use,Review required,Medium,2025-12-31,RV000231
+MV00184,M0073,2.2,AI/ML,2019-04-22,2019-08-07,,Active,Active - In use,Review required,Low,2025-12-23,RV000233
+MV00185,M0074,1.3,Vendor,2020-10-14,,,Development,Not Yet Active,Review required,High,2026-01-19,
+MV00186,M0074,2.0,Statistical,2021-03-29,2021-06-10,,Active,Active - In use,Review required,Medium,2026-01-20,RV000236
+MV00187,M0074,3.2,Statistical,2018-08-05,2018-10-05,,Active,Active - In use,Review not required,Medium,2025-12-16,
+MV00188,M0074,4.1,Statistical,2022-02-24,2022-05-15,,Active,Active - In use,Review not required,Low,2025-11-05,
+MV00189,M0075,1.2,Statistical,2024-07-06,2024-10-11,,Active,Active - In use,Review required,Low,2025-09-24,RV000237
+MV00190,M0075,2.2,AI/ML,2023-10-12,2023-12-07,,Active,Active - In use,Review required,Medium,2026-04-25,RV000241
+MV00191,M0075,3.1,Rule-based,2024-04-28,,,Development,Not Yet Active,Review not required,Low,2026-04-23,
+MV00192,M0075,4.1,Statistical,2021-12-06,2022-03-04,,Active,Active - In use,Review required,Low,2025-09-08,RV000243
+MV00193,M0076,1.3,Rule-based,2019-04-06,2019-06-02,,Active,Active - In use,Review required,High,2025-10-30,RV000244
+MV00194,M0076,2.0,Vendor,2025-10-07,2025-12-16,,Active,Active - In use,Review required,High,2025-11-08,RV000245
+MV00195,M0076,3.3,Statistical,2020-12-26,2021-03-13,,Active,Active - In use,Review not required,High,2026-01-22,
+MV00196,M0077,1.0,Rule-based,2023-03-21,2023-06-28,,Active,Active - In use,Review not required,Medium,2025-12-20,
+MV00197,M0077,2.3,AI/ML,2020-04-24,2020-06-26,,Active,Active - In use,Review required,Low,2026-04-29,RV000246
+MV00198,M0078,1.0,Statistical,2022-11-24,2023-02-08,,Active,Active - In use,Review required,Medium,2026-05-28,RV000247
+MV00199,M0078,2.3,Rule-based,2023-11-19,2023-12-21,,Active,Active - In use,Review required,Medium,2025-10-14,RV000249
+MV00200,M0078,3.2,Rule-based,2025-07-18,2025-09-27,,Active,Active - In use,Review required,Medium,2025-12-25,RV000252
+MV00201,M0078,4.3,Rule-based,2023-11-26,2024-02-05,,Active,Active - In use,Review required,High,2026-01-04,RV000255
+MV00202,M0079,1.0,Statistical,2024-01-27,,,Development,Not Yet Active,Review required,Low,2025-12-18,
+MV00203,M0079,2.2,Statistical,2025-05-12,2025-07-22,,Active,Active - In use,Review required,Medium,2025-11-14,RV000256
+MV00204,M0079,3.2,Statistical,2023-08-26,2023-09-18,,Active,Active - In use,Review required,Medium,2025-09-24,RV000257
+MV00205,M0080,1.1,AI/ML,2016-09-15,,,Development,Not Yet Active,Review required,Low,2025-10-20,
+MV00206,M0080,2.0,Vendor,2023-10-04,2024-01-20,,Active,Active - In use,Review required,Low,2025-12-21,RV000259
+MV00207,M0081,1.2,Statistical,2022-03-16,,,Development,Not Yet Active,Review required,Low,2025-09-20,
+MV00208,M0081,2.1,AI/ML,2024-08-08,2024-11-20,,Active,Active - In use,Review required,Medium,2025-09-10,RV000261
+MV00209,M0082,1.0,AI/ML,2021-06-13,,,Development,Not Yet Active,Review required,Medium,2026-01-18,
+MV00210,M0082,2.2,AI/ML,2022-12-29,2023-03-07,,Active,Active - In use,Review required,Low,2026-01-23,RV000263
+MV00211,M0082,3.0,Statistical,2023-04-03,2023-05-03,,Active,Active - In use,Review required,Low,2026-01-28,RV000264
+MV00212,M0083,1.2,AI/ML,2023-08-19,2023-11-23,,Active,Active - In use,Review required,Low,2025-09-06,RV000267
+MV00213,M0083,2.0,Statistical,2021-06-26,2021-07-23,,Active,Active - In use,Review required,Low,2026-01-12,RV000268
+MV00214,M0083,3.1,Statistical,2022-12-14,2023-03-30,,Active,Active - In use,Review required,Low,2026-06-27,RV000270
+MV00215,M0084,1.0,Rule-based,2021-07-12,,,Development,Not Yet Active,Review required,Medium,2026-01-01,
+MV00216,M0084,2.2,Rule-based,2021-07-08,,,Development,Not Yet Active,Review required,Medium,2026-02-09,
+MV00217,M0085,1.1,Statistical,2020-06-04,2020-08-14,,Active,Active - In use,Review not required,Low,2026-04-30,
+MV00218,M0085,2.2,Rule-based,2023-08-04,2023-11-11,,Active,Active - In use,Review required,Low,2025-10-02,RV000271
+MV00219,M0086,1.3,Statistical,2023-08-28,2023-12-06,,Active,Active - In use,Review required,Low,2026-01-05,RV000272
+MV00220,M0087,1.1,Statistical,2024-12-19,2025-02-08,,Active,Active - In use,Review required,Low,2025-08-24,RV000273
+MV00221,M0087,2.3,AI/ML,2024-11-11,2025-01-25,,Active,Active - In use,Review required,Medium,2026-01-10,RV000274
+MV00222,M0088,1.0,AI/ML,2025-07-29,2025-10-06,,Active,Active - In use,Review required,Medium,2026-01-25,RV000275
+MV00223,M0088,2.1,AI/ML,2025-08-18,2025-09-06,,Active,Active - In use,Review required,Medium,2025-12-15,RV000277
+MV00224,M0088,3.2,Statistical,2025-02-25,2025-03-30,,Active,Active - In use,Review not required,High,2025-09-04,
+MV00225,M0088,4.2,Statistical,2025-01-29,,,Development,Not Yet Active,Review required,Medium,2026-08-23,
+MV00226,M0089,1.2,Statistical,2019-05-30,2019-07-01,,Active,Active - In use,Review required,Medium,2026-11-13,RV000280
+MV00227,M0089,2.3,Rule-based,2024-01-17,2024-03-15,,Active,Active - In use,Review required,Medium,2026-06-08,RV000285
+MV00228,M0090,1.3,Statistical,2023-04-24,2023-07-29,,Active,Active - In use,Review required,Medium,2026-01-27,RV000288
+MV00229,M0091,1.1,Statistical,2025-04-05,2025-05-25,,Active,Active - In use,Review required,Medium,2025-09-29,RV000289
+MV00230,M0091,2.1,AI/ML,2024-05-07,2024-06-24,,Active,Active - In use,Review not required,Low,2025-11-06,
+MV00231,M0091,3.1,Rule-based,2025-07-17,,,Development,Not Yet Active,Review not required,Low,2025-10-18,
+MV00232,M0092,1.2,AI/ML,2023-09-29,2024-01-17,,Active,Active - In use,Review required,Medium,2025-10-05,RV000293
+MV00233,M0093,1.0,Vendor,2025-08-27,2025-10-28,,Active,Active - In use,Review required,Low,2026-01-08,RV000295
+MV00234,M0093,2.0,Statistical,2025-01-09,2025-05-07,,Active,Active - In use,Review required,Medium,2026-08-19,RV000296
+MV00235,M0093,3.3,AI/ML,2022-09-21,2022-10-10,,Active,Active - In use,Review required,Low,2025-12-25,RV000298
+MV00236,M0093,4.1,AI/ML,2023-07-27,2023-11-08,,Active,Active - In use,Review required,Medium,2025-12-20,RV000299
+MV00237,M0094,1.3,Rule-based,2023-04-02,,,Development,Not Yet Active,Review required,Medium,2025-10-31,
+MV00238,M0094,2.3,Rule-based,2024-11-24,,,Development,Not Yet Active,Review required,Medium,2026-01-04,
+MV00239,M0095,1.3,Vendor,2024-04-05,2024-04-27,,Active,Active - In use,Review not required,Medium,2025-08-31,
+MV00240,M0095,2.1,Statistical,2023-09-23,,,Development,Not Yet Active,Review not required,Low,2026-09-10,
+MV00241,M0095,3.1,Statistical,2025-10-21,2025-11-18,,Active,Active - In use,Review required,Medium,2025-12-09,RV000300
+MV00242,M0096,1.2,Vendor,2019-09-30,2019-11-04,,Active,Active - In use,Review required,Medium,2025-10-30,RV000301
+MV00243,M0096,2.2,Statistical,2020-12-03,2021-03-20,,Active,Active - In use,Review required,Low,2026-10-19,RV000302
+MV00244,M0096,3.1,AI/ML,2019-08-10,2019-11-20,,Active,Active - In use,Review required,Low,2025-10-03,RV000303
+MV00245,M0096,4.0,Statistical,2018-11-14,2019-03-08,,Active,Active - In use,Review required,Low,2026-01-24,RV000306
+MV00246,M0097,1.2,Statistical,2017-05-23,2017-08-20,,Active,Active - In use,Review not required,High,2026-01-22,
+MV00247,M0097,2.0,AI/ML,2016-10-15,2017-01-01,,Active,Active - In use,Review required,High,2026-01-17,RV000308
+MV00248,M0097,3.0,AI/ML,2022-05-07,2022-08-29,,Active,Active - In use,Review required,High,2026-09-19,RV000310
+MV00249,M0097,4.2,Statistical,2025-11-09,2026-01-03,,Active,Active - In use,Review required,High,2026-06-27,RV000311
+MV00250,M0098,1.1,Statistical,2021-12-14,2022-03-21,,Active,Active - In use,Review required,High,2026-03-24,RV000313
+MV00251,M0098,2.0,Statistical,2020-07-05,2020-07-25,,Active,Active - In use,Review required,Medium,2026-10-24,RV000314
+MV00252,M0099,1.1,Rule-based,2023-07-11,2023-10-17,,Active,Active - In use,Review required,High,2026-11-28,RV000316
+MV00253,M0100,1.1,AI/ML,2024-05-20,2024-06-01,,Active,Active - In use,Review not required,Medium,2026-05-28,
+MV00254,M0101,1.0,AI/ML,2020-03-23,2020-04-22,,Active,Active - In use,Review required,High,2025-09-30,RV000320
+MV00255,M0101,2.2,Statistical,2017-06-21,2017-07-13,,Active,Active - In use,Review required,Medium,2026-01-09,RV000325
+MV00256,M0101,3.3,Statistical,2018-12-14,2019-03-21,,Active,Active - In use,Review not required,Medium,2026-01-19,
+MV00257,M0101,4.2,Statistical,2025-10-26,2025-12-06,,Active,Active - In use,Review not required,Medium,2025-09-11,
+MV00258,M0102,1.1,AI/ML,2024-08-17,2024-11-26,,Active,Active - In use,Review required,Low,2026-02-01,RV000326
+MV00259,M0102,2.0,Vendor,2022-07-11,2022-08-29,,Active,Active - In use,Review required,Low,2025-10-16,RV000328
+MV00260,M0102,3.3,Statistical,2023-01-28,2023-02-10,,Active,Active - In use,Review required,Medium,2025-11-30,RV000331
+MV00261,M0103,1.1,Vendor,2025-05-05,2025-06-05,,Active,Active - In use,Review required,Medium,2026-01-25,RV000332
+MV00262,M0104,1.3,Statistical,2023-11-15,2023-12-03,,Active,Active - In use,Review required,Medium,2026-05-07,RV000334
+MV00263,M0104,2.1,Statistical,2025-06-26,2025-09-24,,Active,Active - In use,Review required,Medium,2026-01-13,RV000335
+MV00264,M0104,3.2,AI/ML,2023-06-25,2023-08-24,,Active,Active - In use,Review required,Low,2026-01-03,RV000338
+MV00265,M0105,1.3,Statistical,2022-02-24,2022-03-28,,Active,Active - In use,Review not required,Medium,2026-01-07,
+MV00266,M0105,2.3,AI/ML,2025-01-31,2025-05-21,,Active,Active - In use,Review required,Medium,2026-06-15,RV000340
+MV00267,M0106,1.0,Statistical,2025-07-29,2025-10-06,,Active,Active - In use,Review required,Medium,2026-01-27,RV000342
+MV00268,M0106,2.1,Statistical,2024-07-10,,,Development,Not Yet Active,Review not required,Medium,2025-11-11,
+MV00269,M0107,1.3,Statistical,2020-02-22,2020-04-29,,Active,Active - In use,Review required,Medium,2026-01-20,RV000343
+MV00270,M0107,2.3,AI/ML,2025-05-30,2025-06-13,,Active,Active - In use,Review not required,Medium,2025-09-01,
+MV00271,M0107,3.0,AI/ML,2020-07-16,2020-11-01,,Active,Active - In use,Review not required,Medium,2025-12-28,
+MV00272,M0107,4.0,Statistical,2025-08-18,2025-11-18,,Active,Active - In use,Review not required,Low,2025-09-16,
+MV00273,M0108,1.0,Statistical,2024-05-30,2024-06-21,,Active,Active - In use,Review not required,High,2025-12-29,
+MV00274,M0108,2.1,Statistical,2025-08-19,,,Development,Not Yet Active,Review required,High,2026-08-30,
+MV00275,M0108,3.1,Statistical,2025-05-08,2025-05-21,,Active,Active - In use,Review required,High,2026-01-12,RV000344
+MV00276,M0108,4.1,Statistical,2025-05-11,2025-06-29,,Active,Active - In use,Review required,High,2025-10-29,RV000346
+MV00277,M0109,1.2,AI/ML,2021-06-20,2021-08-07,,Active,Active - In use,Review required,Medium,2025-12-06,RV000350
+MV00278,M0109,2.3,AI/ML,2023-09-07,2023-10-16,,Active,Active - In use,Review not required,Medium,2025-08-31,
+MV00279,M0109,3.1,Vendor,2024-09-06,2024-12-09,,Active,Active - In use,Review not required,Medium,2026-01-09,
+MV00280,M0109,4.1,AI/ML,2023-08-12,2023-11-05,,Active,Active - In use,Review required,Medium,2026-01-09,RV000352
+MV00281,M0110,1.1,AI/ML,2021-03-05,2021-04-25,,Active,Active - In use,Review required,High,2025-11-16,RV000353
+MV00282,M0111,1.3,Statistical,2025-03-13,2025-05-12,,Active,Active - In use,Review not required,Medium,2026-12-08,
+MV00283,M0111,2.2,AI/ML,2023-06-24,2023-09-21,,Active,Active - In use,Review required,Medium,2025-11-19,RV000356
+MV00284,M0111,3.2,AI/ML,2019-12-06,2020-02-19,,Active,Active - In use,Review required,Medium,2026-01-06,RV000358
+MV00285,M0112,1.1,Statistical,2022-12-05,2023-01-20,,Active,Active - In use,Review required,Low,2025-11-24,RV000362
+MV00286,M0112,2.3,AI/ML,2022-01-09,2022-04-16,,Active,Active - In use,Review required,Low,2026-01-13,RV000363
+MV00287,M0113,1.1,Statistical,2021-12-19,2022-01-02,,Active,Active - In use,Review required,Medium,2025-12-30,RV000365
+MV00288,M0114,1.0,AI/ML,2020-09-22,2021-01-09,,Active,Active - In use,Review required,High,2026-01-16,RV000366
+MV00289,M0115,1.3,Statistical,2022-08-14,2022-11-26,,Active,Active - In use,Review required,High,2026-06-17,RV000367
+MV00290,M0115,2.0,AI/ML,2024-07-04,2024-11-01,,Active,Active - In use,Review required,Medium,2025-11-26,RV000368
+MV00291,M0116,1.1,Statistical,2023-08-05,2023-11-23,,Active,Active - In use,Review required,High,2026-05-27,RV000370
+MV00292,M0116,2.1,AI/ML,2024-08-16,2024-11-24,,Active,Active - In use,Review required,High,2025-11-04,RV000371
+MV00293,M0116,3.0,Rule-based,2023-07-28,2023-11-11,,Active,Active - In use,Review required,High,2026-09-09,RV000372
+MV00294,M0116,4.1,Rule-based,2024-03-18,2024-04-15,,Active,Active - In use,Review required,Medium,2025-09-11,RV000376
+MV00295,M0117,1.3,Statistical,2021-10-27,2022-02-09,,Active,Active - In use,Review required,Medium,2025-12-30,RV000378
+MV00296,M0118,1.2,AI/ML,2022-07-11,2022-10-30,,Active,Active - In use,Review required,Low,2025-10-04,RV000379
+MV00297,M0118,2.2,AI/ML,2023-12-25,2024-04-19,,Active,Active - In use,Review required,Low,2025-11-05,RV000380
+MV00298,M0118,3.3,Rule-based,2024-02-05,2024-05-12,,Active,Active - In use,Review required,Low,2025-09-05,RV000385
+MV00299,M0118,4.1,Statistical,2023-09-16,2023-10-07,,Active,Active - In use,Review required,Low,2026-01-23,RV000386
+MV00300,M0119,1.0,Vendor,2021-07-23,2021-10-21,,Active,Active - In use,Review required,Medium,2026-01-01,RV000387
+MV00301,M0119,2.0,Statistical,2017-02-15,2017-03-24,,Active,Active - In use,Review required,High,2025-10-11,RV000390
+MV00302,M0120,1.3,Vendor,2025-01-10,2025-02-05,,Active,Active - In use,Review required,Medium,2025-10-11,RV000392
