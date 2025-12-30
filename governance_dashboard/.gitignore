@@ -5,6 +5,7 @@ __pycache__/
 # Environment
 .env
 .env.*
+*.log
 
 # Databases
 *.duckdb
@@ -17,3 +18,7 @@ governance.db
 # OS
 .DS_Store
 Thumbs.db
+
+
+
+
