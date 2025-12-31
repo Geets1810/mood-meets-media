@@ -1,7 +1,51 @@
-import streamlit as st
 import duckdb
+import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
+
+import duckdb
+import streamlit as st
+
+@st.cache_resource
+def get_connection():
+    return duckdb.connect("data/governance.duckdb")
+
+con = get_connection()
+
+
+@st.cache_resource
+def load_tables():
+    con.execute("""
+        CREATE OR REPLACE TABLE dim_model AS
+        SELECT * FROM read_csv_auto('data/dim_model.csv')
+    """)
+
+    con.execute("""
+        CREATE OR REPLACE TABLE dim_model_version AS
+        SELECT * FROM read_csv_auto('data/dim_model_version.csv')
+    """)
+
+    con.execute("""
+        CREATE OR REPLACE TABLE dim_person AS
+        SELECT * FROM read_csv_auto('data/dim_person.csv')
+    """)
+
+    con.execute("""
+        CREATE OR REPLACE TABLE bridge_model_assignment AS
+        SELECT * FROM read_csv_auto('data/bridge_model_assignment.csv')
+    """)
+
+    con.execute("""
+        CREATE OR REPLACE TABLE fact_model_review AS
+        SELECT * FROM read_csv_auto('data/fact_model_review.csv')
+    """)
+
+    con.execute("""
+        CREATE OR REPLACE TABLE fact_model_review_backlog_monthly AS
+        SELECT * FROM read_csv_auto('data/fact_model_review_backlog_monthly.csv')
+    """)
+
+#load_tables()
 
 # --------------------------------------------------
 # App config
@@ -11,13 +55,13 @@ st.set_page_config(
     layout="wide"
 )
 
-st.title("📊 Model Review Backlog Dashboard")
+st.title("Model Review Backlog Dashboard")
 st.caption("Month-end snapshot view of model governance health")
 
 # --------------------------------------------------
 # DuckDB connection
 # --------------------------------------------------
-con = duckdb.connect("data/governance.duckdb", read_only=True)
+con = duckdb.connect("data/governance.duckdb")
 
 # --------------------------------------------------
 # Sidebar filters
